@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <!--相机ip 端口-->
+  <Server>192.168.4.4</Server>
+  <Port>51236</Port>
+  <!--串口 默认key（com1） 为剔除 （value 为插入的串口名）-->
+  <Com>COM1</Com>
+  <!-- 波特率-->
+  <BaudRate>9600</BaudRate>
+  <!--接口域名 -->
+ <!-- <RequestUrl>http://192.168.4.3:20001/</RequestUrl>-->
+	<RequestUrl>http://ch.mga1.cn/</RequestUrl>
+  <CompareUrl>http://ch.mga1.cn/p/</CompareUrl>
+	<!--http://10.11.27.102/api/ 接口-->
+	<!--域名验证-->
+
+  <Api>0</Api>
+  <SqlType>Sqlite</SqlType>
+  <Connstr>Data Source=MyDatabase.db;Version=3;</Connstr>
+  <IsUseLogin>false</IsUseLogin>
+  <Time>15000</Time>
+  <PassWord>123456</PassWord>
+	<OpenSoft>in</OpenSoft>
+  <OnlyCollectBag>false</OnlyCollectBag>
+	<DelayTime>2</DelayTime>
+  <workshopCode>cj1001</workshopCode>
+  <workshopName>测试工厂</workshopName>
+  <plantCode>gc1001</plantCode>
+  <plantName>测试车间</plantName>
+  <errcount>1</errcount>
+  <!--左侧串口扫码枪端口号-->
+  <ScanningCom_left>com5</ScanningCom_left>
+  <!--左侧串口扫码枪波特率-->
+  <ScanningBaudRate_left>9600</ScanningBaudRate_left>
+  <ScanningCom_right>com6</ScanningCom_right>
+  <ScanningBaudRate_right>115200</ScanningBaudRate_right>
+  <!--是否是多轨道-->
+  <Ismultiple>true</Ismultiple>
+  <!--扫码枪类型 1.串口 2.USB-->
+  <ScanType>1</ScanType>
+</Config>
